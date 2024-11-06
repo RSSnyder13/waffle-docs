@@ -1,0 +1,11 @@
+site_name: Waffle Documentation
+site_url: https://wafflecodeapp.github.io/waffle-docs/
+site_author: Gergely Borgulya
+
+repo_name: WaffleCodeApp/waffle-docs
+repo_url: https://github.com/WaffleCodeApp/waffle-docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
