@@ -1,11 +1,43 @@
 site_name: Waffle Documentation
-site_url: https://wafflecodeapp.github.io/waffle-docs/
-site_author: Gergely Borgulya
-
-repo_name: WaffleCodeApp/waffle-docs
-repo_url: https://github.com/WaffleCodeApp/waffle-docs
+site_url: https://docs.wafflesoc2.com
+site_description: Simple, SOC 2-compliant AWS infrastructure for containerized backends
+site_author: Waffle Team
+repo_url: https://github.com/WaffleCodeApp/waffle-templates
+repo_name: WaffleCodeApp/waffle-templates
 
 theme:
   name: material
+  palette:
+    primary: amber  # Waffle-themed warm color (April 10, 2025)
+    accent: deep orange
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   features:
-    - navigation.instant
+    - content.code.copy
+    - content.tabs
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Installation: installation.md
+  - Guides:
+      - Deploying a Next.js App: guides/nextjs.md
+      - Setting Up a Database: guides/database.md
+      - CI/CD Pipelines: guides/cicd.md
+  - Reference: reference.md
+  - FAQ: faq.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
