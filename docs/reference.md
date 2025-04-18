@@ -20,7 +20,7 @@ Autoscaling does what you think - it automatically scales your infra. We set def
 
 ### Domain Names & SSLs
 
-We automatically generate a domain name for your service and SSL certificate, but you can also easily add a custom URL. DNS is built by Amazon Route 53 (documentation <a href='https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html' target='_blank'>here</a>, and SSL is built with Certificate Manager (documentation <a href='https://aws.amazon.com/certificate-manager/' target='_blank'>here</a>.
+We automatically generate a domain name for your service and SSL certificate, but you can also easily add a custom URL. DNS is built by Amazon Route 53 (documentation <a href='https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html' target='_blank'>here</a>), and SSL is built with Certificate Manager (documentation <a href='https://aws.amazon.com/certificate-manager/' target='_blank'>here</a>).
 
 ## Secure, Scalable Deployment Ops
 
@@ -28,7 +28,7 @@ These are enterprise-security ready, but require no effort from you or change to
 
 ### CodeBuild CI/CD
 
-We build a secure CI/CD in AWS for every service you deploy. In the Waffle UI you can require manual CI/CD approvals if desired. You can also use this CI/CD in addition to Github actions or any other CI product. See <a href='https://docs.aws.amazon.com/codebuild/>AWS documentation</a> for more information here.
+We build a secure CI/CD in AWS for every service you deploy. In the Waffle UI you can require manual CI/CD approvals if desired. You can also use this CI/CD in addition to Github actions or any other CI product. See <a href='https://docs.aws.amazon.com/codebuild/' target='_blank'>AWS documentation</a> for more information here.
 
 ### Git Connection via CodeStar
 
@@ -52,4 +52,4 @@ Email notifications are set up by default via AWS Simple Notifications Service a
 
 ### Secrets Management
 
-We automatically set up AWS Secrets manager for storing private information, for example, credentials of 3rd party services.
+We automatically set up AWS Secrets Manager for storing private information, for example, credentials of 3rd party services. See Secrets Manager documentation <a href='https://docs.aws.amazon.com/secretsmanager/' target='_blank'>here</a>.
