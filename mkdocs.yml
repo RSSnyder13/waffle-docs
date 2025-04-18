@@ -23,15 +23,8 @@ theme:
 nav:
   - Home: index.md
   - Quickstart: quickstart.md
-  - Installation: installation.md
-  - Guides:
-      - Deploying a Next.js App: guides/nextjs.md
-      - Setting Up a Database: guides/database.md
-      - CI/CD Pipelines: guides/cicd.md
   - Reference: reference.md
   - FAQ: faq.md
-  - Contributing: contributing.md
-  - Changelog: changelog.md
 
 markdown_extensions:
   - pymdownx.highlight:
