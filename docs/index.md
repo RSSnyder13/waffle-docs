@@ -1,9 +1,11 @@
----
-title: Introduction
----
+# Welcome to Waffle
 
-# Waffle
+Waffle simplifies AWS infrastructure for containerized backends with a 3-minute setup, UI-driven management, and SOC 2 compliance. Perfect for startup CTOs and developers without DevOps expertise.
 
-Waffle helps one deploy a secrure foundation for web applications and host their backend and frontend components using AWS.
+## Get Started
+Deploy your first backend in minutes with our [Quickstart Guide](quickstart.md).
 
-To deploy a sample application to your AWS account, checkout the [Quickstart](quickstart).
+## Why Waffle?
+- **Fast**: Launch in 3 minutes.
+- **Simple**: No DevOps required.
+- **Secure**: SOC 2-compliant templates.
