@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'WaffleSOC2 Docs',
-  tagline: 'Documentation for WaffleSOC2',
+  title: 'Waffle Docs',
+  tagline: 'Documentation for Waffle',
   url: 'https://docs.wafflesoc2.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,15 +8,15 @@ module.exports = {
   projectName: 'your-repo',
   themeConfig: {
     navbar: {
-      title: 'WaffleSOC2 Docs',
+      title: 'Waffle Docs',
       logo: {
-        alt: 'WaffleSOC2 Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
         { to: '/docs/index', label: 'Docs', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { href: 'https://github.com/your-username/your-repo', label: 'GitHub', position: 'right' },
+        { href: 'https://github.com/rssnyder13/waffle-docs', label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
