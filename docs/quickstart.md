@@ -23,4 +23,9 @@ Deploy your stack in 3 minutes using Waffle's simple web interface.
 2. Connect your Github with AWS via CodeBuild.
    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
      <iframe
-       src="https://www.loom.com/embed/fF42AFbcF54d5bA69fedcbaABb9?sid=3d24529c-f934-41ea-b4df-65e8f5a5e501
+       src="https://www.loom.com/embed/fF42AFbcF54d5bA69fedcbaABb9?sid=3d24529c-f934-41ea-b4df-65e8f5a5e501"
+       frameBorder="0"
+       style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: '2px solid #1a73e8', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}
+     />
+   </div>
+3. Deploy your Docker image - and Waffle builds from there!
