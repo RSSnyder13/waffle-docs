@@ -1,22 +1,21 @@
 module.exports = {
-  title: 'Waffle Docs',
-  tagline: 'Documentation for Waffle',
+  title: 'Waffle Documentation',
+  tagline: 'Simple, SOC 2-compliant AWS infrastructure for containerized backends',
   url: 'https://docs.wafflesoc2.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'your-username',
-  projectName: 'your-repo',
+  organizationName: 'Waffle',
+  projectName: 'waffle-templates',
   themeConfig: {
     navbar: {
-      title: 'Waffle Docs',
+      title: 'Waffle Documentation',
       logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',
+        alt: 'Waffle Logo',
+        src: 'img/logo.png',
       },
       items: [
         { to: '/docs/index', label: 'Docs', position: 'left' },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { href: 'https://github.com/rssnyder13/waffle-docs', label: 'GitHub', position: 'right' },
+        { href: 'https://github.com/WaffleCodeApp/waffle-templates', label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
@@ -25,10 +24,20 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            { label: 'Introduction', to: '/docs/index' },
+            { label: 'Home', to: '/docs/index' },
+            { label: 'Quickstart', to: '/docs/quickstart' },
+            { label: 'Reference', to: '/docs/reference' },
+            { label: 'FAQ', to: '/docs/faq' },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            { label: 'GitHub', href: 'https://github.com/WaffleCodeApp/waffle-templates' },
           ],
         },
       ],
+      copyright: `Copyright © ${new Date().getFullYear()} Waffle Team`,
     },
     colorMode: {
       defaultMode: 'light',
@@ -43,13 +52,11 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      ],
+      },
     ],
   ],
 };
